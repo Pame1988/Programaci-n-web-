@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h2>Mi Formulario</h2>
+    <form action="">
+      <p><label for="nom">Nombre</label> <input type="text" name="Nombre" /></p>
+      <p><input type="text" name="Apellido" placeholder="Apellido" /></p>
+      <p>
+        <label for="pass">Contraseña</label>
+        <input type="password" name="pass" />
+      </p>
+      <label for="Sexo">Sexo</label>
+      <ul>
+        <li>
+          <input type="radio" name="sexo" value="Hombre" />
+          <label>Hombre</label>
+        </li>
+        <li>
+          <input type="radio" name="sexo" value="Mujer" />
+          <label>Mujer</label>
+        </li>
+      </ul>
+      <label>Hobbies</label>
+      <ul>
+        <li>
+          <input type="checkbox" name="Hobbies[]" value="bailar" id="bailar" />
+          <label for="bailar">bailar</label>
+        </li>
+        <li>
+          <input type="checkbox" name="hobbies[]" value="cantar" id="cantar" />
+          <label for="cantar">cantar</label>
+        </li>
+        <li>
+          <input type="checkbox" name="hobbies[]" value="nadar" id="nadar" />
+          <label for="nadar">nadar</label>
+        </li>
+        <li>
+          <input type="checkbox" name="hobbies[]" value="correr" id="correr" />
+          <label for="correr">correr</label>
+        </li>
+      </ul>
+      <p>
+        <label for="titulo">titulo</label>
+        <select name="titulo">
+          <option value="primario">primario</option>
+          <option value="secundario">secundario</option>
+          <option value="terciario">terciario</option>
+          <option value="universitario">universitario</option>
+        </select>
+      </p>
+      <p>
+        <label for="comentarios">comentarios</label>
+        <textarea name="comentarios"></textarea>
+      </p>
+      <p>
+        <input type="submit" value="enviar" />
+        <input type="reset" value="borrar" />
+      </p>
+    </form>
+  </body>
+</html>
