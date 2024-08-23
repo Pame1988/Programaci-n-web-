@@ -1,0 +1,29 @@
+h1{
+    color: blueviolet;
+}
+h2{
+    color: aqua;
+}
+p{
+    font-family: 'Lucida Sans';
+    font-size: 25px;
+}
+.destacado{
+    color: blue;
+}
+.caja{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: solid palevioletred;
+    font-size: 20px;
+}
+
+.item1{
+    border: color black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagen{
+    border: solid violet;
+}
