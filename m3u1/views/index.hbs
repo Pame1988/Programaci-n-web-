@@ -1,0 +1,258 @@
+ <div class="container-fluid">
+      <!-- comienzo de contenido de pagina -->
+
+      <div
+        id="home"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <!-- comienzo de carrousel -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="imagenes/seguro de vida carrousel.jpg"
+              class="d-block w-100"
+              alt="seguro de vida"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Seguros de vida</h5>
+              <p>lo seguro es que pase lo que pase vas a estar</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="imagenes/seguro-agro-carousel.jpg"
+              class="d-block w-100"
+              alt="seguro-agro-carousel"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Seguros agro</h5>
+              <p>entendemos de riesgos por eso somos tu mejor aliado</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="imagenes/seguro-de-auto-carousel.jpg"
+              class="d-block w-100"
+              alt="seguro-de-auto-carousel"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Asegura tu auro con nosotros</h5>
+              <p>Somos tu mejor opcion para asegurar tu auto</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Final de carousel -->
+      <div>
+        <!-- Comienzo de novedades y testimonios -->
+        <div class="row my-3">
+          <div id="novedades" class="col-md-5 offset-md-2 py-3">
+            <h2>Novedades</h2>
+            <ul class="lista-novedades">
+              <li>
+                <a
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  ><img
+                    src="imagenes/beneficios-novedades.jpg"
+                    alt=""
+                  />Beneficios</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  ><img
+                    src="imagenes/disposiciones-novedades.png"
+                    alt=""
+                  />Nuevas diposiciones</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  ><img
+                    src="imagenes/cotizaciones-novedades.jfif"
+                    alt=""
+                  />Cotizaciones</a
+                >
+              </li>
+            </ul>
+          </div>
+        <!-- final de seccion novedades -->
+        <!-- inicio seccion de testimonios -->
+         <div class="col-md-3 my-3">
+          <div class="rounded py-5 testimonios">
+            <h2 class="text-center">Testimonios</h2>
+            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <h5>El mejor productor de seguros</h5>
+                  <p>Josefina bultri, Salto</p>
+                </div>
+                <div class="carousel-item">
+                  <h5>El mejor precio del mercado</h5>
+                  <p>Ramon, Arrecifes</p>
+                </div>
+                <div class="carousel-item">
+                  <h5>Responsable y atento</h5>
+                  <p>Marianela, San Pedro</p>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Testimonios</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fin modal -->
+      <div id="historia" class="row aling-items-center py-4"> 
+        <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
+          <img src="/imagenes/historia1.jfif" alt="historia1" class="img-fluid">
+        </div>
+        <div class="col-lg-2 col-md-3 d-none d-sm-block">
+          <img src="/imagenes/historia2.png" alt="historia1" class="img-fluid">
+        </div>
+        <div class="col-12 d-sm-none">
+          <img src="/imagenes/historia3.jfif" alt="historia3" class="img-fluid">
+        </div>
+        <div class="col-lg-4 col-md-6 mt-4 mt-sm-0">
+          <h2>Historia</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque unde autem dolore aperiam quia veniam sed alias laboriosam, ratione sapiente, facere molestias ea voluptatum nisi doloremque nemo dolorem temporibus ullam.</p>
+        </div>
+      </div>
+<!-- Final historia -->
+
+<div class="row row-cols-1 row-cols-md-3 g-3 justify-content-center">
+  <div></div><h2>Nosotros</h2><div></div>
+  <div class="col">
+    <div class="card">
+      <img src="/imagenes/nosotros1.jfif" class="card-img-top" alt="nosotros1">
+      <div class="card-body">
+        <h5 class="card-title">Pamela Rigo</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="/imagenes/nosotros2.jfif" class="card-img-top" alt="nosotros2">
+      <div class="card-body">
+        <h5 class="card-title">Marcos Machado</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="card">
+        <img src="/imagenes/nosotros3.jfif" class="card-img-top" alt="nosotros3" height="290px">
+        <div class="card-body">
+          <h5 class="card-title">Oficina San Pedro</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+  </div>
+</div> <!-- Termina seccion nosotros -->
+
+<div class="container">
+  <div class="row py-4">
+    <div class="col-md-6">
+      <div id="mapa"><h2>Visitanos</h2></div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.9929081515807!2d-59.67143382520053!3d-33.683247809470494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ba22da11a08e29%3A0xf9b0f6c40c32c6b7!2sCarlos%20Pellegrini%201495%2C%20B2930%20San%20Pedro%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1729679740547!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="col-md-6">
+      <form>
+        <div class="mb-3">
+          <h2>Contactanos</h2>
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" required>
+        </div>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Dirección</label>
+          <input type="text" class="form-control" id="nombre" required>
+        </div>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Telefono</label>
+          <input type="text" class="form-control" id="nombre" required>
+        </div>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Mensaje</label>
+          <input type="text" class="form-control" id="nombre" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+{{{body}}}
